@@ -7,8 +7,8 @@
   [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```js
-const express = require('express')
-const app = express()
+var express = require('express')
+var app = express()
 
 app.get('/', function (req, res) {
   res.send('Hello World')
